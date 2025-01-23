@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.card{
+    height:200px;
+}
+.select{
+    height:500px;
+    width: 450px;
+    border-radius: 3px;
+}
+.overflow{
+    height: 500px;
+    width: 400px;
+    box-shadow: 5px 5px 20px black;
+    overflow:hidden;
+}
+.intro{
+    height:70px;
+    width: 400px;
+    padding:6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    color:white;
+    background: rgb(27,27,27,0.5);
+}
+.overflow:hover{
+    cursor: pointer;
+}
+.placename{
+    margin:10px;
+    font-size:40px;
+}
+.aboutplace{
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.overflow:hover .intro{
+    height: 250px;
+    bottom: 0 px;
+}
+.overflow:hover .aboutplace{
+    opacity: 1;
+    visibility: visible;
+}
+.overflow:hover select{
+    transform: scale(1.1) rotate(-3deg);
+}
+.des-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
